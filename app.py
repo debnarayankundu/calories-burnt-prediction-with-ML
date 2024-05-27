@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load the pre-trained model
-model = pickle.load(open('calories4.pkl', 'rb'))
+model = pickle.load(open('calories.pkl', 'rb'))
 
 # Function to predict calorie expenditure
 def pred(features):
